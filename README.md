@@ -1,10 +1,24 @@
-# sing-box
+# fuzz-box
 
-The universal proxy platform.
+fuzz-box is a fork of [sing-box](https://github.com/SagerNet/sing-box),
+focused on extending the universal proxy platform for use as a backend for VPN
+and proxy management systems.
+
+It aims to stay close to upstream sing-box while providing:
+
+- Additional protocol support and integrations beyond those available upstream.
+- UI-oriented operation, including adaptations that make integration with web
+  UIs and management platforms easier.
+- Upstream compatibility, where practical, so new sing-box releases can be
+  incorporated without unnecessary divergence.
+
+fuzz-box is based on the work of the sing-box project and its contributors.
+The underlying Go module and import paths remain unchanged for upstream
+compatibility.
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/sing-box.svg)](https://repology.org/project/sing-box/versions)
 
-## Documentation
+## Upstream documentation
 
 https://sing-box.sagernet.org
 
